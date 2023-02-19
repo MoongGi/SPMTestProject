@@ -7,8 +7,11 @@
 
 import SwiftUI
 
-struct AssetImageView: View {
-    var body: some View {
+public struct AssetImageView: View {
+    
+    public init() { }
+    
+    public var body: some View {
         Image("test1")
             .resizable()
             .frame(width: 200, height: 200)
