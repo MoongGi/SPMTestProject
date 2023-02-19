@@ -8,10 +8,7 @@
 import Foundation
 import SwiftUI
 
-@available(iOS 13, *)
 public struct TextView: View {
-    
-    public init() { }
     
     public var body: some View {
         VStack {
