@@ -16,7 +16,7 @@ public struct AnimateView: View {
     public var body: some View {
             
         VStack {
-            AnimatedImage(name: "earth.gif")
+            AnimatedImage(name: "earth.gif", bundle: .module)
                 .indicator(.activity)
                 .frame(width: 100, height: 100)
                 .aspectRatio(contentMode: .fit)

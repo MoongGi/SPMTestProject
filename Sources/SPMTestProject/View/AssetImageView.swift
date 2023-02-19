@@ -12,7 +12,7 @@ public struct AssetImageView: View {
     public init() { }
     
     public var body: some View {
-        Image("test1")
+        Image("test1", bundle: .module)
             .resizable()
             .frame(width: 200, height: 200)
     }
