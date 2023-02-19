@@ -10,6 +10,8 @@ import SwiftUI
 
 public struct TextView: View {
     
+    public init() { }
+    
     public var body: some View {
         VStack {
             Text("SPM 테스트 뷰")
